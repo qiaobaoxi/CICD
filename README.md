@@ -11,9 +11,9 @@
     export PATH=${JAVA_HOME}/bin:$PATH
 
 ## 安装jenkins
-   下载jenkins最新的war包: latest
-   mkdir -p jenkins && /opt/jenkins
-   wget -O /opt/jenkins/jenkins.war http://mirrors/jenkins.io/war-stable/latest/jenkins.war
-   java -jar jenkins.war --httpPort=8080
+    下载jenkins最新的war包: latest
+    mkdir -p jenkins && /opt/jenkins
+    wget -O /opt/jenkins/jenkins.war http://mirrors/jenkins.io/war-stable/latest/jenkins.war
+    java -jar jenkins.war --httpPort=8080
    
    
