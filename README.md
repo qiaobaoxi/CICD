@@ -2,7 +2,7 @@
 ##  安装jdk
     # tar解压jdk安装包 
     mkdir -p /opt/jdk17
-    tar zxvf jdk-8u211-linux-x64.tar.gz -C /opt/jdk17 --strip-components 1
+    tar zxvf jdk-8u211-linux-x64.tar.gz -C(注：解压到某个目录下) /opt/jdk17 --strip-components 1(注：这个1表示不要1级目录名)
     
     # vi /etc/profile
     export JAVA_HOME=/opt/jdk17
